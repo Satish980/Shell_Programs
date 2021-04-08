@@ -1,0 +1,6 @@
+while read line
+do
+	echo $line
+#here program reading lines from file and copying it in file2 
+done < file > file2
+

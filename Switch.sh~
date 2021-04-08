@@ -1,0 +1,18 @@
+echo "------------------Menu-------------------"
+echo "1.List The Files"
+echo "2.Show Date"
+echo "3.Present Working Directory"
+echo "4.Exit"
+echo "Enter A Choice To Execute Commands:"
+read n
+case $n in
+	1) ls ;;
+	2) date;;
+	3) pwd ;;
+	4) exit ;;
+	*) "Invalid Input"
+esac
+
+	
+
+
